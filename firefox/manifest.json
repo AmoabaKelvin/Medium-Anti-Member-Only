@@ -17,10 +17,6 @@
     }
   },
   "permissions": ["activeTab", "https://*.medium.com/*"],
-  "browser_action":
-  {
-    "default_icon": "image.png"
-
   "browser_action": {
     "default_icon": {
       "48": "image.png"
