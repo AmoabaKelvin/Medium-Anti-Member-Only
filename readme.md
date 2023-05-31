@@ -24,6 +24,7 @@ to the proxy link. The proxy link is a free service that bypasses the paywall.
 - Select `firefox` directory and click on `manifest.json`
 - You're done! Now go to any Medium article and enjoy!
 
+
 ## Usage
 Once the extension is installed, you can just click on any Medium article link and it will automatically redirect you to the 12ft.io proxy link.
 
