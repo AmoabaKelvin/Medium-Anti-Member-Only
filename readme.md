@@ -9,11 +9,19 @@ to the proxy link. The proxy link is a free service that bypasses the paywall.
 - Automatically adds 12ft.io to Medium article links. Just click on what you want to read and everything else is taken care of.
 - Redirects you to the 12ft.io URL when you click on a modified link, providing a seamless experience.
 
-## Installation
+## Installation on Chromium-based browsers
 - Clone this repo
 - Open Chrome and go to `chrome://extensions/`
 - Enable developer mode
 - Click on `Load unpacked` and select the cloned repo folder
+- Select `chrome` directory
+- You're done! Now go to any Medium article and enjoy!
+
+## Installation on Firefox
+- Clone this repo
+- Open Chrome and go to `about:debugging#/runtime/this-firefox`
+- Click on `Load Temporary Add-on` and select the cloned repo folder
+- Select `firefox` directory and click on `manifest.json`
 - You're done! Now go to any Medium article and enjoy!
 
 ## Usage
