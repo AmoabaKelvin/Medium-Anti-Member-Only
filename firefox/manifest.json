@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Medium Paywall Remover",
+  "version": "1.0.0",
+  "description": "Remove Paywall from medium articles, powered by 12ft.io",
+  "author": "greedypython",
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["*://*.medium.com/*"]
+    }
+  ],
+  "applications":
+  {
+    "gecko":
+    {
+      "id": "medium-paywall-remover@greedypython",
+      "strict_min_version": "52.0"
+    }
+  },
+  "permissions": ["activeTab", "https://*.medium.com/*"],
+  "browser_action":
+  {
+    "default_icon": "image.png"
+  }
+}
