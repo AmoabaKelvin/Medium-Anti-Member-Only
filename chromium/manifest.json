@@ -13,5 +13,8 @@
   "permissions": ["activeTab", "storage", "declarativeContent"],
   "action": {
     "default_icon": "image.png"
+  },
+  "background": {
+    "service_worker": "background.js"
   }
 }
