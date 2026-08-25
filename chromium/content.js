@@ -1,6 +1,10 @@
 const freediumUrl = "https://freedium.cfd/";
 const mediumDomain = "https://medium.com";
 
+if (window.location.hostname.includes("medium.com")) {
+  window.location.replace(freediumUrl + window.location.href);
+}
+
 function handleNewArticles(mutationsList) {
   mutationsList.forEach((mutation) => {
     if (mutation.type === "childList") {
